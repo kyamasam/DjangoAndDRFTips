@@ -28,3 +28,18 @@ urlpatterns = [
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
 ]
 ```
+
+### Setting token expiry times
+#### Add the following in your settings.py
+```
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(hours=4),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=14),
+}
+```
+
+
+### Note that this is a minimal tutorial. For More Information, visit:
+
+[SimpleJWTGit](https://github.com/jazzband/djangorestframework-simplejwt)
+[SimpleIsBetterThanComplex](https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html)
