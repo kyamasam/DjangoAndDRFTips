@@ -42,4 +42,5 @@ SIMPLE_JWT = {
 ### Note that this is a minimal tutorial. For More Information, visit:
 
 [SimpleJWTGit](https://github.com/jazzband/djangorestframework-simplejwt)
+
 [SimpleIsBetterThanComplex](https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html)
