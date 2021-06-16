@@ -2,7 +2,7 @@
 
 ### Install the app from pip
 ```
-python -m pip install django-cors-headers
+pip install django-cors-headers
 
 ```
 
