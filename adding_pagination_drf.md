@@ -3,7 +3,7 @@
 #### Add the following to settings.py 
 ```
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.apps.core.pagination.StandardResultsSetPagination',
+    'DEFAULT_PAGINATION_CLASS': 'core.pagination.StandardResultsSetPagination',
     'PAGE_SIZE': 100
 }
 ```
